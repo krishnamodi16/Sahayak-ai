@@ -1,0 +1,48 @@
+{
+  "short_name": "Sahayak AI",
+  "name": "Sahayak AI — Voice Billing & Store Khata",
+  "description": "Smart voice-first billing, inventory manager and digital bahi-khata for Kirana and retail stores with 100% offline support.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "display": "standalone",
+  "orientation": "any",
+  "categories": [
+    "business",
+    "productivity",
+    "finance",
+    "utilities"
+  ],
+  "shortcuts": [
+    {
+      "name": "Voice Assistant",
+      "short_name": "Voice",
+      "description": "Open Voice Billing",
+      "url": "/?tab=voice",
+      "icons": [{ "src": "/favicon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Sale",
+      "short_name": "Sale",
+      "description": "Record a new sale",
+      "url": "/?tab=sales",
+      "icons": [{ "src": "/favicon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Inventory",
+      "short_name": "Stock",
+      "description": "Check stock & items",
+      "url": "/?tab=inventory",
+      "icons": [{ "src": "/favicon.svg", "sizes": "192x192" }]
+    }
+  ]
+}
